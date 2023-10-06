@@ -1,11 +1,11 @@
 export const blogPost = 
 
 `query MyQuery {
-  assets
-  blogs
-  blog {
-    id
-    newBlog
-    publishedAt
+  blogs {
+    author
+    createdAt
+    postContent
+    postDate
+    title
   }
 }`
